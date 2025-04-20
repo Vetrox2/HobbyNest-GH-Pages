@@ -31,6 +31,7 @@ Sharing your collections goes beyond just showing off your hobbies — it sparks
 - **Backend:**  
   - **ASP.NET Core REST API:** Robust server-side logic and data processing.
   - **Dapper with Npgsql:** Streamlined data access to the PostgreSQL database.
+  - **FluentValidation:** Clean and expressive validation framework.
 
 - **Database:**  
   - **PostgreSQL on Docker:** A reliable, scalable, and containerized solution for data storage needs.
