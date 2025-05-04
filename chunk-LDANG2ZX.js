@@ -1,0 +1,1 @@
+import{Qb as o,Rb as s,mc as a,ob as n}from"./chunk-TIIQBU2L.js";var i=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=n({type:t,selectors:[["app-settings-page"]],decls:2,vars:0,template:function(e,m){e&1&&(o(0,"p"),a(1,"Coming soon (yeah, soon)! :>"),s())},encapsulation:2})};export{i as SettingsPageComponent};
