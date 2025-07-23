@@ -1,0 +1,21 @@
+.error-snackbar {
+    @include mat.snack-bar-overrides((
+      container-color: #8d0000,
+      supporting-text-color: #fff,
+    ));
+  }
+  
+  .warning-snackbar {
+    @include mat.snack-bar-overrides((
+      container-color: #f57c00,
+      supporting-text-color: #fff,
+    ));
+  }
+  
+  .success-snackbar {
+    @include mat.snack-bar-overrides((
+      container-color: #e6e6e6,
+      supporting-text-color: #1d1d1d,
+    ));
+  }
+  

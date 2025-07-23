@@ -1,0 +1,199 @@
+{
+    "error": {
+        "fetch": "Sorry, we couldn’t load the data. Please try again.",
+        "base": "Something went wrong. Please try again.",
+        "responseUndefined": "We received an empty response. Try refreshing the page.",
+        "nameRequiredError": "Name is required.",
+        "lengthError": "{value, plural, one {Maximum # character.} other {Maximum # characters.}}",
+        "categoryRequiredError": "Category is required.",
+        "notEmpty": "Not empty."
+    },
+    "button": {
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "save": "Save",
+        "delete": "Delete",
+        "done": "Done",
+        "rename": "Rename",
+        "add": "Add"
+    },
+    "dialog": {
+        "confirmTitle": "Confirm",
+        "confirmChangeCollectionStatusMessage": "You're about to make this collection public. It will be visible to all users. Do you want to continue?",
+        "confirmDeleteMessage": "You're about to delete {{assetName}}. This action is permanent. Are you sure you want to proceed?"
+    },
+    "notification": {
+        "noPermission": "You don’t have permission to do this.",
+        "failure": "Oops! Something went wrong.",
+        "success": "Done! Your action was successful.",
+        "statusChangedSuccess": "Status changed successfully.",
+        "itemAlreadyInCollection": "This item is already in the selected collection."
+    },
+    "shell": {
+        "homeLabel": "Home",
+        "searchLabel": "Search",
+        "collectionsLabel": "Collections",
+        "settingsLabel": "Settings",
+        "profile": "Profile",
+        "logout": "Log out",
+        "about": "About",
+        "legal": "Legal",
+        "friends": "Friends"
+    },
+    "language": {
+        "en": "English",
+        "pl": "Polish",
+        "label": "Language"
+    },
+    "about": {
+        "title": "About Hobby Nest",
+        "version": "Version",
+        "appDescriptionTitle": "Application Description",
+        "appDescription": "HobbyNest is a private web application designed for individuals who enjoy recording their past experiences and tracking the things they love. Whether you’re a fan of series, movies, games, books, or even have a cherished recipe, HobbyNest allows you to create and manage personal collections that capture your journey through ratings, reflections, and to-do lists. By sharing these collections with friends, you also spark inspiration and engaging conversations about shared passions.",
+        "motivationTitle": "Why We Created This",
+        "motivation": "HobbyNest was born out of a desire to help people preserve memories and celebrate what truly matters—the hobbies and experiences that define us. As an innovative solution developed during my Bachelor of Engineering in Computer Science, this project is both a technical challenge and a personal passion. It provides a creative platform where users can keep a record of their favorite pastimes while building a community that celebrates common interests and ignites meaningful interactions.",
+        "creatorsTitle": "Created By",
+        "creditsTitle": "Data Sources & Credits",
+        "creditsMessage": "We gratefully acknowledge the following open databases and resources that make this application possible:",
+        "visitSource": "Visit Source",
+        "technologiesTitle": "Technologies Used",
+        "viewLegal": "View Legal Information",
+        "backHome": "Back to Home"
+    },
+    "collection": {
+        "itemsCount": "{count, plural, =0 {No items} one {# item} other {# items}}",
+        "minutesCount": "{count, plural, =0 {0 minutes} one {# minute} other {# minutes}}",
+        "seasonsCount": "{count, plural, =0 {0 seasons} one {# season} other {# seasons}}",
+        "episodesCount": "{count, plural, =0 {0 episodes} one {# episode} other {# episodes}}",
+        "pagesCount": "{count, plural, =0 {0 pages} one {# page} other {# pages}}",
+        "makePublic": "Make public",
+        "makePrivate": "Make private",
+        "deleteCollection": "Delete collection",
+        "category": {
+            "movie": "Movie",
+            "series": "Series",
+            "game": "Game",
+            "book": "Book",
+            "custom": "Custom",
+            "moviePlural": "Movies",
+            "seriesPlural": "Series",
+            "gamePlural": "Games",
+            "bookPlural": "Books",
+            "customPlural": "Custom"
+        },
+        "toDoLabel": {
+            "movie": "To watch",
+            "series": "To watch",
+            "game": "To play",
+            "book": "To read",
+            "custom": "To do"
+        },
+        "addCollection": {
+            "title": "Add New Collection",
+            "name": "Collection name",
+            "category": "Category",
+            "public": "Public"
+        },
+        "addCustomItem": {
+            "title": "Title",
+            "description": "Description"
+        },
+        "addMediaItem": {
+            "title": "Search"
+        },
+        "addCollectionItem": {
+            "title": "Add New Item"
+        },
+        "chooseCollection": {
+            "title": "Add to Watchlist",
+            "addNewCollection": "Create new collection"
+        },
+        "collectionDetails": {
+            "rated": "Rated"
+        },
+        "customItem": {
+            "description": "Description"
+        },
+        "collectionTile": {
+            "category": "Category",
+            "status": "Status",
+            "items": "Items",
+            "public": "Public",
+            "private": "Private"
+        },
+        "starRating": {
+            "rating": "Rating",
+            "resetRatingTooltip": "Reset rating"
+        }
+    },
+    "friend": {
+        "actions": {
+            "friends": "Friends",
+            "addFriend": "Add friend",
+            "deleteFriend": "Delete friend",
+            "cancelRequest": "Cancel request",
+            "requestSent": "Request sent",
+            "accept": "Accept request",
+            "decline": "Decline request"
+        },
+        "error": {
+            "sendRequest": "Failed to send the invitation.",
+            "acceptRequest": "Failed to accept the invitation.",
+            "deleteFriend": "Failed to remove the friend."
+        }
+    },
+    "home": {
+        "recentlyModified": "Recently Modified",
+        "trendingMovies": "Trending Movies",
+        "trendingSeries": "Trending Series",
+        "trendingGames": "Trending Games",
+        "trendingFriends": "Trending Among Friends"
+    },
+    "legal": {
+        "title": "Legal Information",
+        "lastUpdated": "Last Updated: {{date}}",
+        "backToAbout": "Back to About",
+        "backToHome": "Back to Home"
+    },
+    "login": {
+        "description": "Create and share collections of your favorite movies, series, and more with your friends. Discover new content and get recommendations based on your interests.",
+        "footer": "Your personal media collection manager",
+        "loginFailed": "Login failed. Please try again."
+    },
+    "media": {
+        "mediaItemTile": {
+            "tba": "TBA"
+        },
+        "mediaItemDetails": {
+            "overview": "Overview",
+            "addToCollectionTooltip": "Add to collection",
+            "viewSourcePageTooltip": "View source page",
+            "tba": "TBA"
+        }
+    },
+    "user": {
+        "edit": {
+            "title": "Edit Profile",
+            "username": "Username",
+            "usernameRequiredError": "Username is required",
+            "usernameShortError": "Username must be at least {{length}} {length, plural, one {character} other {characters}}",
+            "usernameLongError": "Username cannot exceed {{length}} {length, plural, one {character} other {characters}}",
+            "bio": "Bio",
+            "bioLongError": "Bio cannot exceed {{length}} {length, plural, one {character} other {characters}}"
+        },
+        "profile": {
+            "userJoin": "Joined on {{date}}",
+            "friendsCount": "{count, plural, =0 {# friends} one {# friend} other {# friends}}",
+            "edit": "Edit Profile",
+            "aboutMeLabel": "About Me",
+            "aboutMeTitle": "About Me",
+            "userCollectionsLabel": "Collections",
+            "userCollectionsTitle": "User’s Collections",
+            "userFriendsLabel": "Friends",
+            "userFriendsTitle": "User’s Friends"
+        }
+    },
+    "shared": {
+        "searchPlaceholder": "Search..."
+    }
+}

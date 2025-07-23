@@ -1,0 +1,32 @@
+//$primary-color: #7e57c2;
+$primary-color: #6200eb;
+$secondary-color: #424242;
+$success-color: #66bb6a;
+$danger-color: #ef5350;
+$warning-color: #ffca28;
+$info-color: #29b6f6;
+
+$light-color: #bdbdbd;
+
+$background-color-light: #424242;
+$background-color: #303030;
+$background-color-dark: #212121;
+
+$shadow-light: 0px 4px 6px rgba(0, 0, 0, 0.15);
+$shadow-medium: 0px 6px 10px rgba(0, 0, 0, 0.2);
+$shadow-heavy: 0px 8px 12px rgba(0, 0, 0, 0.25);
+
+$breakpoint-xs: 480px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 1024px;
+$breakpoint-lg: 1280px;
+
+$spacing-unit: 8px;
+
+$spacing-small: $spacing-unit;
+$spacing-medium: $spacing-unit * 2;
+$spacing-large: $spacing-unit * 3;
+
+$border-radius-small: 4px;
+$border-radius-medium: 8px;
+$border-radius-large: 16px;

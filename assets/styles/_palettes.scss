@@ -1,0 +1,110 @@
+$custom-purple-palette: (
+  50: #f0eaff,
+  100: #d9cff9,
+  200: #beb0f2,
+  300: #a38fe9,
+  400: #8b6ee4,
+  500: #5d3fd3,
+  600: #4a3bb1,
+  700: #3e3296,
+  800: #32297c,
+  900: #221a56,
+  A100: #b4a4ff,
+  A200: #977bff,
+  A400: #7857dd,
+  A700: #6e47d5,
+  contrast: (
+    50: rgba(0, 0, 0, 0.87),
+    100: rgba(0, 0, 0, 0.87),
+    200: rgba(0, 0, 0, 0.87),
+    300: rgba(0, 0, 0, 0.87),
+    400: rgba(0, 0, 0, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+    A100: rgba(0, 0, 0, 0.87),
+    A200: white,
+    A400: white,
+    A700: white
+  )
+);
+
+$custom-teal-palette: (
+  50: #e7f5f3,
+  100: #b7e4de,
+  200: #89d2c8,
+  300: #5abfb1,
+  400: #38b2a2,
+  500: #26a69a,
+  600: #229a8e,
+  700: #1d8b7f,
+  800: #187c71,
+  900: #106357,
+  A100: #b3fff3,
+  A200: #80ffeb,
+  A400: #4dffd6,
+  A700: #33ffcc,
+  contrast: (
+    50: rgba(0, 0, 0, 0.87),
+    100: rgba(0, 0, 0, 0.87),
+    200: rgba(0, 0, 0, 0.87),
+    300: rgba(0, 0, 0, 0.87),
+    400: rgba(0, 0, 0, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+    A100: rgba(0, 0, 0, 0.87),
+    A200: rgba(0, 0, 0, 0.87),
+    A400: rgba(0, 0, 0, 0.87),
+    A700: rgba(0, 0, 0, 0.87)
+  )
+);
+
+$custom-danger-palette: (
+  50: #fee9e9,
+  100: #fbc8c8,
+  200: #f7a2a2,
+  300: #f07b7b,
+  400: #eb5e5e,
+  500: #d32f2f,
+  600: #c22a2a,
+  700: #ac2424,
+  800: #961f1f,
+  900: #751717,
+  A100: #ffadad,
+  A200: #ff7f7f,
+  A400: #f44336,
+  A700: #ff2a2a,
+  contrast: (
+    50: rgba(0, 0, 0, 0.87),
+    100: rgba(0, 0, 0, 0.87),
+    200: rgba(0, 0, 0, 0.87),
+    300: rgba(0, 0, 0, 0.87),
+    400: rgba(0, 0, 0, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+    A100: rgba(0, 0, 0, 0.87),
+    A200: rgba(0, 0, 0, 0.87),
+    A400: white,
+    A700: white
+  )
+);
+
+$custom-background-palette: (
+  background: #212121,
+  app-bar: #1a1a1a,
+  card: #2a2a2a,
+  dialog: #2a2a2a,
+  hover: #333333,
+  selected: #3c3c3c,
+  disabled: #424242,
+  surface: #2a2a2a,
+  tooltip: #616161
+);

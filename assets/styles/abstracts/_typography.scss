@@ -1,0 +1,61 @@
+$font-family-base: 'Times New Roman', Times, serif;
+$text-color: #ffffff;
+$text-color-additional: #FFFFFFB3;
+
+$font-size-base: 16px;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+$font-size-h1: 32px;
+$font-size-h2: 28px;
+$font-size-h3: 24px;
+$font-size-h4: 20px;
+$font-size-h5: 18px;
+$font-size-h6: 16px;
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  color: $text-color;
+}
+
+h1 {
+  font-size: $font-size-h1;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: $font-size-h2;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+h3 {
+  font-size: $font-size-h3;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+h4 {
+  font-size: $font-size-h4;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: $font-size-h5;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+h6 {
+  font-size: $font-size-h6;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: $font-size-base;
+  margin-bottom: 10px;
+}

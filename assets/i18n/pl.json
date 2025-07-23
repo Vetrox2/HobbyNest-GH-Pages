@@ -1,0 +1,199 @@
+{
+    "error": {
+        "fetch": "Wystąpił problem podczas ładowania danych. Proszę spróbować ponownie.",
+        "base": "Wystąpił nieoczekiwany błąd. Proszę spróbować ponownie.",
+        "responseUndefined": "Otrzymano pustą odpowiedź. Odśwież stronę i spróbuj ponownie.",
+        "nameRequiredError": "Nazwa jest wymagana.",
+        "lengthError": "{value, plural, one {Maksymalnie # znak.} few {Maksymalnie # znaki.} many {Maksymalnie # znaków.} other {Maksymalnie # znaku.}}",
+        "categoryRequiredError": "Kategoria jest wymagana.",
+        "notEmpty": "Nie puste."
+    },
+    "button": {
+        "cancel": "Anuluj",
+        "confirm": "Potwierdź",
+        "save": "Zapisz",
+        "delete": "Usuń",
+        "done": "Gotowe",
+        "rename": "Zmień nazwę",
+        "add": "Dodaj"
+    },
+    "dialog": {
+        "confirmTitle": "Potwierdzenie operacji",
+        "confirmChangeCollectionStatusMessage": "Zamierzasz udostępnić tę kolekcję publicznie. Będzie ona widoczna dla wszystkich użytkowników. Czy na pewno chcesz kontynuować?",
+        "confirmDeleteMessage": "Zamierzasz usunąć {{assetName}}. Ta operacja jest nieodwracalna. Czy chcesz kontynuować?"
+    },
+    "notification": {
+        "noPermission": "Nie posiadasz uprawnień do wykonania tej operacji.",
+        "failure": "Wystąpił błąd podczas wykonywania operacji.",
+        "success": "Operacja zakończona pomyślnie.",
+        "statusChangedSuccess": "Status zmieniony pomyślnie.",
+        "itemAlreadyInCollection": "Ten element już znajduje się w wybranej kolekcji."
+    },
+    "shell": {
+        "homeLabel": "Główna",
+        "searchLabel": "Szukaj",
+        "collectionsLabel": "Kolekcje",
+        "settingsLabel": "Ustawienia",
+        "profile": "Profil",
+        "logout": "Wyloguj się",
+        "about": "O aplikacji",
+        "legal": "Informacje prawne",
+        "friends": "Znajomi"
+    },
+    "language": {
+        "en": "Angielski",
+        "pl": "Polski",
+        "label": "Język"
+    },
+    "about": {
+        "title": "O Hobby Nest",
+        "version": "Wersja",
+        "appDescriptionTitle": "Opis aplikacji",
+        "appDescription": "HobbyNest to prywatna aplikacja internetowa stworzona dla osób, które lubią dokumentować swoje doświadczenia i śledzić to, co kochają. Niezależnie od tego, czy jesteś fanem seriali, filmów, gier, książek, czy może masz ulubiony przepis – HobbyNest pozwala tworzyć i zarządzać osobistymi kolekcjami, które odzwierciedlają Twoją drogę poprzez oceny, refleksje i listy zadań. Udostępniając kolekcje znajomym, możesz inspirować innych i prowadzić ciekawe rozmowy o wspólnych pasjach.",
+        "motivationTitle": "Dlaczego stworzyliśmy tę aplikację",
+        "motivation": "HobbyNest powstało z potrzeby zachowania wspomnień i docenienia tego, co naprawdę się liczy – pasji i doświadczeń, które nas definiują. To innowacyjne rozwiązanie zostało stworzone jako część pracy inżynierskiej z informatyki i jest połączeniem wyzwania technicznego z osobistą pasją. Aplikacja stanowi kreatywną przestrzeń do rejestrowania ulubionych zajęć oraz budowania społeczności wokół wspólnych zainteresowań i wartościowych relacji.",
+        "creatorsTitle": "Twórcy",
+        "creditsTitle": "Źródła danych i podziękowania",
+        "creditsMessage": "Z wdzięcznością korzystamy z poniższych otwartych baz danych i zasobów, które umożliwiły powstanie tej aplikacji:",
+        "visitSource": "Zobacz źródło",
+        "technologiesTitle": "Wykorzystane technologie",
+        "viewLegal": "Zobacz informacje prawne",
+        "backHome": "Powrót do strony głównej"
+    },
+    "collection": {
+        "itemsCount": "{count, plural, =0 {Brak przedmiotów} one {# przedmiot} few {# przedmioty} many {# przedmiotów} other {# przedmiotu}}",
+        "minutesCount": "{count, plural, =0 {0 minut} one {# minuta} few {# minuty} many {# minut} other {# minuty}}",
+        "seasonsCount": "{count, plural, =0 {0 sezonów} one {# sezon} few {# sezony} many {# sezonów} other {# sezonu}}",
+        "episodesCount": "{count, plural, =0 {0 odcinków} one {# odcinek} few {# odcinki} many {# odcinków} other {# odcinka}}",
+        "pagesCount": "{count, plural, =0 {0 stron} one {# strona} few {# strony} many {# stron} other {# strony}}",
+        "makePublic": "Ustaw jako publiczną",
+        "makePrivate": "Ustaw jako prywatną",
+        "deleteCollection": "Usuń kolekcję",
+        "category": {
+            "movie": "Film",
+            "series": "Serial",
+            "game": "Gra",
+            "book": "Książka",
+            "custom": "Własna",
+            "moviePlural": "Filmy",
+            "seriesPlural": "Seriale",
+            "gamePlural": "Gry",
+            "bookPlural": "Książki",
+            "customPlural": "Własne"
+        },
+        "toDoLabel": {
+            "movie": "Do obejrzenia",
+            "series": "Do obejrzenia",
+            "game": "Do zagrania",
+            "book": "Do przeczytania",
+            "custom": "Do zrobienia"
+        },
+        "addCollection": {
+            "title": "Dodaj nową kolekcję",
+            "name": "Nazwa kolekcji",
+            "category": "Kategoria",
+            "public": "Publiczna"
+        },
+        "addCustomItem": {
+            "title": "Tytuł",
+            "description": "Opis"
+        },
+        "addMediaItem": {
+            "title": "Wyszukaj"
+        },
+        "addCollectionItem": {
+            "title": "Dodaj nowy element"
+        },
+        "chooseCollection": {
+            "title": "Dodaj do kolekcji",
+            "addNewCollection": "Utwórz nową kolekcję"
+        },
+        "collectionDetails": {
+            "rated": "Ocenione"
+        },
+        "customItem": {
+            "description": "Opis"
+        },
+        "collectionTile": {
+            "category": "Kategoria",
+            "status": "Status",
+            "items": "Elementy",
+            "public": "Publiczna",
+            "private": "Prywatna"
+        },
+        "starRating": {
+            "rating": "Ocena",
+            "resetRatingTooltip": "Zresetuj ocenę"
+        }
+    },
+    "friend": {
+        "actions": {
+            "friends": "Znajomi",
+            "addFriend": "Dodaj znajomego",
+            "deleteFriend": "Usuń znajomego",
+            "cancelRequest": "Anuluj zaproszenie",
+            "requestSent": "Zaproszenie wysłane",
+            "accept": "Akceptuj zaproszenie",
+            "decline": "Odrzuć zaproszenie"
+        },
+        "error": {
+            "sendRequest": "Nie udało się wysłać zaproszenia.",
+            "acceptRequest": "Nie udało się zaakceptować zaproszenia.",
+            "deleteFriend": "Nie udało się usunąć znajomego."
+        }
+    },
+    "home": {
+        "recentlyModified": "Ostatnio zmienione",
+        "trendingMovies": "Popularne filmy",
+        "trendingSeries": "Popularne seriale",
+        "trendingGames": "Popularne gry",
+        "trendingFriends": "Popularne wśród znajomych"
+    },
+    "legal": {
+        "title": "Informacje prawne",
+        "lastUpdated": "Ostatnio aktualizowane: {{date}}",
+        "backToAbout": "O aplikacji",
+        "backToHome": "Do strony głównej"
+    },
+    "login": {
+        "description": "Twórz kolekcje swoich ulubionych filmów, seriali i nie tylko oraz dziel się nimi ze znajomymi. Odkrywaj nowe treści i otrzymuj rekomendacje dopasowane do Twoich zainteresowań.",
+        "footer": "Twój osobisty menedżer kolekcji multimediów",
+        "loginFailed": "Logowanie nie powiodło się. Spróbuj ponownie."
+    },
+    "media": {
+        "mediaItemTile": {
+            "tba": "Wkrótce"
+        },
+        "mediaItemDetails": {
+            "overview": "Opis",
+            "addToCollectionTooltip": "Dodaj do kolekcji",
+            "viewSourcePageTooltip": "Otwórz stronę źródłową",
+            "tba": "Wkrótce"
+        }
+    },
+    "user": {
+        "edit": {
+            "title": "Edytuj profil",
+            "username": "Nazwa użytkownika",
+            "usernameRequiredError": "Nazwa użytkownika jest wymagana",
+            "usernameShortError": "Nazwa użytkownika musi mieć co najmniej {{length}} {length, plural, one {znak} few {znaki} many {znaków} other {znaku}}",
+            "usernameLongError": "Nazwa użytkownika nie może przekraczać {{length}} {length, plural, one {znaku} few {znaków} many {znaków} other {znaku}}",
+            "bio": "Opis",
+            "bioLongError": "Opis nie może przekraczać {{length}} {length, plural, one {znaku} few {znaków} many {znaków} other {znaku}}"
+        },
+        "profile": {
+            "userJoin": "Dołączył {{date}}",
+            "friendsCount": "{count, plural, =0 {# znajomych} one {# znajomy} other {# znajomych}}",
+            "edit": "Edytuj profil",
+            "aboutMeLabel": "O mnie",
+            "aboutMeTitle": "O mnie",
+            "userCollectionsLabel": "Kolekcje",
+            "userCollectionsTitle": "Kolekcje użytkownika",
+            "userFriendsLabel": "Znajomi",
+            "userFriendsTitle": "Znajomi użytkownika"
+        }
+    },
+    "shared": {
+        "searchPlaceholder": "Szukaj..."
+    }
+}
