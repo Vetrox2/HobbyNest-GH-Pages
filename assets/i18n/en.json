@@ -38,7 +38,15 @@
         "logout": "Log out",
         "about": "About",
         "legal": "Legal",
-        "friends": "Friends"
+        "friends": {
+            "title": "Friends",
+            "friendsTabTooltip": "Your friends",
+            "friendsSearchPlaceholder": "Search in friends...",
+            "requestsTabTooltip": "Requests",
+            "requestsSearchPlaceholder": "Search friend requests...",
+            "searchTabTooltip": "Add friends",
+            "globalSearchPlaceholder": "Search friends..."
+        }
     },
     "language": {
         "en": "English",
@@ -195,5 +203,12 @@
     },
     "shared": {
         "searchPlaceholder": "Search..."
+    },
+    "dateLabel": {
+        "announced": "ANNOUNCED",
+        "coming": "COMING",
+        "soon": "SOON",
+        "premiere": "PREMIERE",
+        "recent": "RECENT"
     }
 }

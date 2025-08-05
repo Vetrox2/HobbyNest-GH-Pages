@@ -8,8 +8,13 @@
   --warning-color: #ff9800;
   --info-color: #2196f3;
   --light-color: #aaaaaa;
-  --golden-star-color: #ffc107;
+  --golden-star-color: var(--golden);
   --golden-star-color-hover: #ffca28;
+
+  --golden: #ffc107;
+  --blue: #2196f3;
+  --green: #4caf50;
+  --orange: #d78b1a;
 
   --background-color-steel: #424242;
   --background-color-lighter: #505050;

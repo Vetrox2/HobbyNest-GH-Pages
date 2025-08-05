@@ -38,7 +38,15 @@
         "logout": "Wyloguj się",
         "about": "O aplikacji",
         "legal": "Informacje prawne",
-        "friends": "Znajomi"
+        "friends": {
+            "title": "Znajomi",
+            "friendsTabTooltip": "Twoi znajomi",
+            "friendsSearchPlaceholder": "Szukaj wśród znajomych...",
+            "requestsTabTooltip": "Zaproszenia",
+            "requestsSearchPlaceholder": "Szukaj wśród zaproszeń...",
+            "searchTabTooltip": "Dodaj znajomych",
+            "globalSearchPlaceholder": "Szukaj znajomych..."
+        }
     },
     "language": {
         "en": "Angielski",
@@ -162,13 +170,13 @@
     },
     "media": {
         "mediaItemTile": {
-            "tba": "Wkrótce"
+            "tba": "Termin nieznany"
         },
         "mediaItemDetails": {
             "overview": "Opis",
             "addToCollectionTooltip": "Dodaj do kolekcji",
             "viewSourcePageTooltip": "Otwórz stronę źródłową",
-            "tba": "Wkrótce"
+            "tba": "Termin nieznany"
         }
     },
     "user": {
@@ -195,5 +203,12 @@
     },
     "shared": {
         "searchPlaceholder": "Szukaj..."
+    },
+    "dateLabel": {
+        "announced": "OGŁOSZONE",
+        "coming": "NADCHODZI",
+        "soon": "WKRÓTCE",
+        "premiere": "PREMIERA",
+        "recent": "NOWOŚĆ"
     }
 }
