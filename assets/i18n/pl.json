@@ -210,5 +210,8 @@
         "soon": "WKRÓTCE",
         "premiere": "PREMIERA",
         "recent": "NOWOŚĆ"
+    },
+    "settings": {
+        "languageLabel": "Język"
     }
 }

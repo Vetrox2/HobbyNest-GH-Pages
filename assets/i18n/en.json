@@ -193,7 +193,7 @@
             "userJoin": "Joined on {{date}}",
             "friendsCount": "{count, plural, =0 {# friends} one {# friend} other {# friends}}",
             "edit": "Edit Profile",
-            "aboutMeLabel": "About Me",
+            "aboutMeLabel": "Bio",
             "aboutMeTitle": "About Me",
             "userCollectionsLabel": "Collections",
             "userCollectionsTitle": "User’s Collections",
@@ -210,5 +210,8 @@
         "soon": "SOON",
         "premiere": "PREMIERE",
         "recent": "RECENT"
+    },
+    "settings": {
+        "languageLabel": "Language"
     }
 }

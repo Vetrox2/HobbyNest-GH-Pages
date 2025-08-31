@@ -1,21 +1,35 @@
+@use 'abstracts/variables' as vars;
+@use '@angular/material' as mat;
+
 .error-snackbar {
-    @include mat.snack-bar-overrides((
-      container-color: #8d0000,
-      supporting-text-color: #fff,
-    ));
-  }
+  @include mat.snack-bar-overrides((
+    container-color: #8d0000,
+    supporting-text-color: #fff,
+  ));
+}
   
-  .warning-snackbar {
-    @include mat.snack-bar-overrides((
-      container-color: #f57c00,
-      supporting-text-color: #fff,
-    ));
-  }
+.warning-snackbar {
+  @include mat.snack-bar-overrides((
+    container-color: var(--warning-color),
+    supporting-text-color: #fff,
+  ));
+}
   
-  .success-snackbar {
-    @include mat.snack-bar-overrides((
-      container-color: #e6e6e6,
-      supporting-text-color: #1d1d1d,
-    ));
-  }
+.success-snackbar {
+  @include mat.snack-bar-overrides((
+    container-color: var(--success-color),
+    supporting-text-color: #101010,
+  ));
+}
   
+.mat-mdc-snackbar-surface {
+  display: flex !important;
+  justify-content: center !important;
+  text-align: center !important;
+  width: fit-content !important;
+  min-width: 0 !important;
+
+  @media (max-width: #{vars.$mobile-large-breakpoint - 1}) {
+    max-width: 95vw !important;
+  }
+}

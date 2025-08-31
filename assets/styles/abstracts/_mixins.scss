@@ -138,3 +138,23 @@
         background-color: transparent;
     }
 }
+
+@mixin hidden-touch-scrollbar {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@mixin visible-touch-scrollbar {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: auto;
+
+    &::-webkit-scrollbar {
+        display: block;
+    }
+}
