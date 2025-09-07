@@ -164,6 +164,8 @@
         "backToHome": "Do strony głównej"
     },
     "login": {
+        "googleBtnLabel": "Zaloguj się przez Google",
+        "mobileBtnLabel": "Pobierz aplikację mobilną",
         "description": "Twórz kolekcje swoich ulubionych filmów, seriali i nie tylko oraz dziel się nimi ze znajomymi. Odkrywaj nowe treści i otrzymuj rekomendacje dopasowane do Twoich zainteresowań.",
         "footer": "Twój osobisty menedżer kolekcji multimediów",
         "loginFailed": "Logowanie nie powiodło się. Spróbuj ponownie."

@@ -164,6 +164,8 @@
         "backToHome": "Back to Home"
     },
     "login": {
+        "googleBtnLabel": "Sign in with Google",
+        "mobileBtnLabel": "Get Mobile App",
         "description": "Create and share collections of your favorite movies, series, and more with your friends. Discover new content and get recommendations based on your interests.",
         "footer": "Your personal media collection manager",
         "loginFailed": "Login failed. Please try again."
