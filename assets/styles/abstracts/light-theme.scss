@@ -1,0 +1,96 @@
+@use '@angular/material' as mat;
+@use 'abstracts/mixins' as mix;
+@use 'palettes' as palettes;
+
+$light-primary: mat.m2-define-palette(palettes.$custom-purple-palette, 500, 100, 700);
+$light-accent: mat.m2-define-palette(palettes.$custom-teal-palette, 500);
+$light-warn: mat.m2-define-palette(palettes.$custom-danger-palette, 500);
+$light-theme: mat.m2-define-light-theme((
+  color: (
+    primary: $light-primary,
+    accent: $light-accent,
+    warn: $light-warn,
+  ),
+  background: (
+    background: map-get(palettes.$custom-background-palette-light, background),
+    app-bar: map-get(palettes.$custom-background-palette-light, app-bar),
+    card: map-get(palettes.$custom-background-palette-light, card),
+    dialog: map-get(palettes.$custom-background-palette-light, dialog),
+    hover: map-get(palettes.$custom-background-palette-light, hover),
+    selected-button: map-get(palettes.$custom-background-palette-light, selected),
+    disabled-button: map-get(palettes.$custom-background-palette-light, disabled),
+    surface: map-get(palettes.$custom-background-palette-light, surface),
+    tooltip: map-get(palettes.$custom-background-palette-light, tooltip)
+  )
+));
+
+
+.light-theme {
+  @include mat.all-component-themes($light-theme);
+
+  @include mat.card-overrides((
+    elevated-container-color: map-get(palettes.$custom-background-palette-light, card),
+  ));
+
+  @include mat.dialog-overrides((
+    container-color: map-get(palettes.$custom-background-palette-light, dialog),
+  ));
+
+  @include mat.sidenav-overrides((
+    container-background-color: map-get(palettes.$custom-background-palette-light, app-bar),
+    content-background-color: map-get(palettes.$custom-background-palette-light, background),
+    scrim-color: map-get(palettes.$custom-background-palette-light, scrim),
+  ));
+
+  @include mat.toolbar-overrides((
+    container-background-color: map-get(palettes.$custom-background-palette-light, app-bar),
+  ));
+
+  @include mat.tooltip-overrides((
+    container-color: map-get(palettes.$custom-background-palette-light, tooltip),
+  ));
+
+  @include mat.list-overrides((
+    list-item-focus-state-layer-color: transparent,
+  ));
+
+  @include mat.badge-overrides((
+    text-size: 12px
+  ));
+
+
+  --primary-color: #{map-get(palettes.$custom-purple-palette, 500)};
+  --primary-color-hover: #{map-get(palettes.$custom-purple-palette, A400)};
+  --primary-color-light: #{map-get(palettes.$custom-purple-palette, 400)};
+  --primary-color-dark: #{map-get(palettes.$custom-purple-palette, 600)};
+  --danger-color: #{map-get(palettes.$custom-danger-palette, 500)};
+  --danger-color-hover: #{map-get(palettes.$custom-danger-palette, A400)};
+
+  --secondary-color: #e0e0e0;
+  --secondary-color-light: #f5f5f5;
+  --secondary-color-hover: #d5d5d5;
+  --secondary-color-light-hover: #eeeeee;
+
+  --background-color-light: #{map-get(palettes.$custom-background-palette-light, card)};
+  --background-color-light-hover: #{map-get(palettes.$custom-background-palette-light, hover)};
+  --background-color: #{map-get(palettes.$custom-background-palette-light, background)};
+  --background-color-dark: #{map-get(palettes.$custom-background-palette-light, app-bar)};
+
+  --background-color-steel: #bdbdbd;
+  --background-color-lighter: #fafafa;
+  --background-color-light-darker: #e8e8e8;
+  --background-color-hover: #f5f5f5;
+
+  --shadow-light: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0px 6px 10px rgba(0, 0, 0, 0.15);
+  --shadow-heavy: 0px 8px 12px rgba(0, 0, 0, 0.2);
+
+  --shadow-glow-light: 0 0 5px rgba(93, 63, 211, 0.2);
+  --shadow-glow-medium: 0 0 8px rgba(93, 63, 211, 0.3);
+  --shadow-glow-heavy: 0 0 12px rgba(93, 63, 211, 0.4);
+
+  --scrollbar-thumb: rgba(93, 63, 211, 0.2);
+  --scrollbar-thumb-hover: rgba(93, 63, 211, 0.35);
+  --scrollbar-thumb-active: rgba(93, 63, 211, 0.5);
+  --scrollbar-track: rgba(93, 63, 211, 0.05);
+}

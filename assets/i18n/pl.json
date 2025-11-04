@@ -8,6 +8,20 @@
         "categoryRequiredError": "Kategoria jest wymagana.",
         "notEmpty": "Nie puste."
     },
+    "disclaimer": {
+        "error": "Wystąpił błąd podczas potwierdzania zastrzeżenia.",
+        "age": {
+            "title": "Oświadczenie o wieku i treści",
+            "subtitle": "Ważne powiadomienie",
+            "contentWarning": "Ostrzeżenie o treściach 18+",
+            "confirmationText": "Potwierdzam, że mam ukończone 18 lat i biorę pełną odpowiedzialność za dostęp do tych treści.",
+            "accept": "Akceptuję i kontynuuję",
+            "decline": "Nie akceptuję i wyloguj",
+            "content1": "Korzystając z tej aplikacji, przyjmujesz do wiadomości i zgadzasz się, że usługa może wyświetlać lub udostępniać materiały wizualne (w tym plakaty, okładki czy materiały promocyjne), które mogą być oznaczone jako 16+ lub 18+ oraz zawierać treści nieprzefiltrowane pod kątem młodszych odbiorców — na przykład częściową nagość, symboliczne lub historyczne odniesienia do postaci ekstremistycznych bądź inne wrażliwe motywy.",
+            "content2": "Potwierdzasz, że masz wymagany wiek, aby oglądać takie treści zgodnie z obowiązującym w Twoim kraju prawem, lub że uzyskałeś odpowiednią zgodę rodzica albo opiekuna prawnego. Przyjmujesz pełną odpowiedzialność za decyzję o dostępie do takich materiałów i rozumiesz, że operator nie prowadzi pełnej i szczegółowej filtracji wszystkich treści.",
+            "content3": "Kontynuując korzystanie z aplikacji, zrzekasz się wszelkich roszczeń dotyczących nieodpowiedniości lub niepożądanego charakteru takich treści oraz zobowiązujesz się do przestrzegania wszelkich ograniczeń wiekowych i oznaczeń klasyfikacyjnych udostępnianych w ramach usługi."
+        }
+    },
     "button": {
         "cancel": "Anuluj",
         "confirm": "Potwierdź",
@@ -20,7 +34,10 @@
     "dialog": {
         "confirmTitle": "Potwierdzenie operacji",
         "confirmChangeCollectionStatusMessage": "Zamierzasz udostępnić tę kolekcję publicznie. Będzie ona widoczna dla wszystkich użytkowników. Czy na pewno chcesz kontynuować?",
-        "confirmDeleteMessage": "Zamierzasz usunąć {{assetName}}. Ta operacja jest nieodwracalna. Czy chcesz kontynuować?"
+        "confirmDeleteMessage": "Zamierzasz usunąć {{assetName}}. Ta operacja jest nieodwracalna. Czy chcesz kontynuować?",
+        "updateAppTitle": "Dostępna aktualizacja",
+        "updateAppMessage": "Obecnie korzystasz z wersji {{currentVersion}}. Dostępna jest nowsza wersja {{latestVersion}} — zaktualizuj aplikację, aby skorzystać z najnowszych usprawnień i poprawek.",
+        "updateButton": "Zaktualizuj teraz"
     },
     "notification": {
         "noPermission": "Nie posiadasz uprawnień do wykonania tej operacji.",
@@ -34,6 +51,7 @@
         "searchLabel": "Szukaj",
         "collectionsLabel": "Kolekcje",
         "settingsLabel": "Ustawienia",
+        "adminLabel": "Admin",
         "profile": "Profil",
         "logout": "Wyloguj się",
         "about": "O aplikacji",
@@ -214,6 +232,31 @@
         "recent": "NOWOŚĆ"
     },
     "settings": {
-        "languageLabel": "Język"
+        "languageLabel": "Język",
+        "themeLabel": "Motyw",
+        "mode": "Tryb"
+    },
+    "admin": {
+        "title": "Panel Administratora",
+        "stats": {
+            "userStatistics": "Statystyki Użytkowników",
+            "collectionStatistics": "Statystyki Kolekcji",
+            "itemStatistics": "Statystyki Elementów",
+            "totalUsers": "Łączna liczba użytkowników",
+            "newUsersDaily": "Nowi użytkownicy (24h)",
+            "newUsersWeekly": "Nowi użytkownicy (7d)",
+            "newUsersMonthly": "Nowi użytkownicy (30d)",
+            "activeUsersDaily": "Aktywni użytkownicy (24h)",
+            "activeUsersWeekly": "Aktywni użytkownicy (7d)",
+            "activeUsersMonthly": "Aktywni użytkownicy (30d)",
+            "avgCollectionsPerUser": "Śr. kolekcji na użytkownika",
+            "totalCollections": "Łączna liczba kolekcji",
+            "publicCollections": "Kolekcje publiczne",
+            "privateCollections": "Kolekcje prywatne",
+            "avgItemsPerCollection": "Śr. elementów na kolekcję",
+            "collectionsPerCategory": "Kolekcje według kategorii",
+            "itemsPerCategory": "Elementy według kategorii",
+            "noData": "Brak danych"
+        }
     }
 }

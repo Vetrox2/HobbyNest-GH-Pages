@@ -1,12 +1,26 @@
 {
     "error": {
-        "fetch": "Sorry, we couldn’t load the data. Please try again.",
+        "fetch": "Sorry, we couldn't load the data. Please try again.",
         "base": "Something went wrong. Please try again.",
         "responseUndefined": "We received an empty response. Try refreshing the page.",
         "nameRequiredError": "Name is required.",
         "lengthError": "{value, plural, one {Maximum # character.} other {Maximum # characters.}}",
         "categoryRequiredError": "Category is required.",
         "notEmpty": "Not empty."
+    },
+    "disclaimer": {
+        "error": "An error occurred while confirming the restriction.",
+        "age": {
+            "title": "Age & Content Disclaimer",
+            "subtitle": "Important Notice",
+            "contentWarning": "18+ Content Warning",
+            "confirmationText": "I confirm that I am 18 years of age or older and I accept full responsibility for accessing this content.",
+            "accept": "I Accept & Continue",
+            "decline": "I Decline & Logout",
+            "content1": "By using this application, you acknowledge and agree that the service may display or provide access to visual media (including posters, cover art or promotional materials) which may be rated 16+ or 18+ and may include content that is not filtered for younger audiences (such as partial nudity, symbolic or historical references to extremist figures, or other sensitive themes).",
+            "content2": "You confirm that you are of legal age to view such content in your jurisdiction, or that you have obtained appropriate consent from your parent or legal guardian. You accept full responsibility for your decision to access such content, and you understand that the operator does not undertake exhaustive filtering of all materials.",
+            "content3": "You further acknowledge that by continuing to use the application, you waive any claim that such content is unsuitable and you agree to comply with all age-restriction and content-rating notices provided in the service."
+        }
     },
     "button": {
         "cancel": "Cancel",
@@ -20,7 +34,10 @@
     "dialog": {
         "confirmTitle": "Confirm",
         "confirmChangeCollectionStatusMessage": "You're about to make this collection public. It will be visible to all users. Do you want to continue?",
-        "confirmDeleteMessage": "You're about to delete {{assetName}}. This action is permanent. Are you sure you want to proceed?"
+        "confirmDeleteMessage": "You're about to delete {{assetName}}. This action is permanent. Are you sure you want to proceed?",
+        "updateAppTitle": "Update Available",
+        "updateAppMessage": "You’re currently using version {{currentVersion}}. A newer version {{latestVersion}} is available — update now to enjoy the latest improvements and fixes.",
+        "updateButton": "Update Now"
     },
     "notification": {
         "noPermission": "You don’t have permission to do this.",
@@ -34,6 +51,7 @@
         "searchLabel": "Search",
         "collectionsLabel": "Collections",
         "settingsLabel": "Settings",
+        "adminLabel": "Admin",
         "profile": "Profile",
         "logout": "Log out",
         "about": "About",
@@ -214,6 +232,31 @@
         "recent": "RECENT"
     },
     "settings": {
-        "languageLabel": "Language"
+        "languageLabel": "Language",
+        "themeLabel": "Theme",
+        "mode": "Mode"
+    },
+    "admin": {
+        "title": "Admin Panel",
+        "stats": {
+            "userStatistics": "User Statistics",
+            "collectionStatistics": "Collection Statistics",
+            "itemStatistics": "Item Statistics",
+            "totalUsers": "Total Users",
+            "newUsersDaily": "New Users (24h)",
+            "newUsersWeekly": "New Users (7d)",
+            "newUsersMonthly": "New Users (30d)",
+            "activeUsersDaily": "Active Users (24h)",
+            "activeUsersWeekly": "Active Users (7d)",
+            "activeUsersMonthly": "Active Users (30d)",
+            "avgCollectionsPerUser": "Avg. Collections per User",
+            "totalCollections": "Total Collections",
+            "publicCollections": "Public Collections",
+            "privateCollections": "Private Collections",
+            "avgItemsPerCollection": "Avg. Items per Collection",
+            "collectionsPerCategory": "Collections by Category",
+            "itemsPerCategory": "Items by Category",
+            "noData": "No data available"
+        }
     }
 }

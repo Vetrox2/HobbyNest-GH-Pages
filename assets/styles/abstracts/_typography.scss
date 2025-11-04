@@ -1,12 +1,23 @@
 @use 'abstracts/variables' as vars;
 
-:root {
-  --font-family-base: 'Roboto', 'Arial', sans-serif;
+.dark-theme {
   --text-color: #ffffff;
   --text-color-additional: rgba(255, 255, 255, 0.85);
   --text-color-grey: rgba(255, 255, 255, 0.65);
+}
+
+.light-theme {
+  --text-color: #212121;
+  --text-color-additional: rgba(0, 0, 0, 0.87);
+  --text-color-grey: rgba(0, 0, 0, 0.6);
+}
+
+
+:root {
+  --font-family-base: 'Roboto', 'Arial', sans-serif;
 
   --font-weight-normal: 400;
+  --font-weight-medium: 500;
   --font-weight-bold: 700;
 
   --font-size-base: 14px;
@@ -37,6 +48,7 @@
     --font-size-h6: 16px;
   }
 }
+
 
 body {
   font-family: var(--font-family-base);
