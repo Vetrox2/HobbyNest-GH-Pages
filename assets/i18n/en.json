@@ -255,8 +255,94 @@
             "privateCollections": "Private Collections",
             "avgItemsPerCollection": "Avg. Items per Collection",
             "collectionsPerCategory": "Collections by Category",
-            "itemsPerCategory": "Items by Category",
+            "itemsPerCategory": "Items per Category",
             "noData": "No data available"
+        }
+    },
+    "landingPage": {
+        "topBar": {
+            "logIn": "Log in"
+        },
+        "hero": {
+            "eyebrow": "Track everything you love",
+            "title": "Your personal hub for movies, series, games & more",
+            "lede": "Organize your entertainment in one place. Create collections, rate what you've experienced, discover trending content, and share your journey with friends. From blockbusters to hidden gems — keep track of it all.",
+            "cta": "Get started for free"
+        },
+        "videoShowcases": {
+            "discover": {
+                "title": "Discover & Search",
+                "description": "Explore trending media, search movies, series, games and books. Find detailed information including posters, descriptions and ratings.",
+                "videos": {
+                    "trendingContent": "Trending content",
+                    "searchMedia": "Search media",
+                    "mediaDetails": "Media details"
+                }
+            },
+            "manageCollections": {
+                "title": "Manage Your Collections",
+                "description": "Create, organize and manage your collections. Add items, rate them, mark as to-do and keep everything perfectly organized.",
+                "videos": {
+                    "createCollections": "Create collections",
+                    "searchAndAdd": "Search and add new items",
+                    "browseDetails": "Browse detailed information",
+                    "addCustom": "Add custom items",
+                    "editCustom": "Edit custom items",
+                    "rateAndMark": "Rate and mark as done"
+                }
+            },
+            "connectFriends": {
+                "title": "Connect with Friends",
+                "description": "Add friends, explore their public collections and get inspired by what others are watching, playing and reading.",
+                "videos": {
+                    "addFriends": "Add friends",
+                    "viewProfiles": "Check their profiles and public collections"
+                }
+            }
+        },
+        "features": {
+            "title": "Everything you need to organize your hobbies",
+            "organize": {
+                "title": "Organize your collections",
+                "description": "Create up to 15 collections across 5 categories: movies, series, games, books, and custom items. Each collection can hold up to 50 entries."
+            },
+            "searchAdd": {
+                "title": "Search & add media",
+                "description": "Find and add media using the built-in searcher. Browse by category and add items to your collections instantly."
+            },
+            "customEntries": {
+                "title": "Custom entries",
+                "description": "Add personalized items beyond searchable media. Create custom entries with your own titles and notes for unique hobbies and interests."
+            },
+            "discoverTrending": {
+                "title": "Discover trending content",
+                "description": "Explore what is trending and popular globally across all supported categories."
+            },
+            "rateTrack": {
+                "title": "Rate & track progress",
+                "description": "Rate your collection items from 0 to 10 stars. Use statuses to organize what you have completed and what you plan to explore next."
+            },
+            "richDetails": {
+                "title": "Rich media details",
+                "description": "Access detailed information about each media item: posters, titles, release dates, duration, and community ratings to help you decide what to add."
+            },
+            "friends": {
+                "title": "Connect with friends",
+                "description": "Add friends and browse their public collections to see what they enjoy and find new inspiration."
+            },
+            "crossPlatform": {
+                "title": "Cross-platform access",
+                "description": "Access your collections anywhere using the web app or download the Android mobile app for on-the-go management."
+            }
+        },
+        "mobile": {
+            "title": "Take HobbyNest with you",
+            "description": "Download the Android app and manage your collections on the go. Sync seamlessly across all your devices.",
+            "downloadLabel": "Download for Android"
+        },
+        "footer": {
+            "copyright": "© {{year}} HobbyNest",
+            "legal": "Legal"
         }
     }
 }

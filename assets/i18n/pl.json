@@ -258,5 +258,91 @@
             "itemsPerCategory": "Elementy według kategorii",
             "noData": "Brak danych"
         }
+    },
+    "landingPage": {
+        "topBar": {
+            "logIn": "Zaloguj się"
+        },
+        "hero": {
+            "eyebrow": "Śledź wszystko, co kochasz",
+            "title": "Twoje osobiste centrum filmów, seriali, gier i innych",
+            "lede": "Organizuj swoje hobby w jednym miejscu. Twórz kolekcje, oceniaj, odkrywaj popularne treści i dziel się swoimi doświadczeniami ze znajomymi. Od hitów po ukryte perełki — wszystko na wyciągnięcie ręki.",
+            "cta": "Zacznij za darmo"
+        },
+        "videoShowcases": {
+            "discover": {
+                "title": "Odkrywaj i przeglądaj",
+                "description": "Przeglądaj popularne treści, wyszukuj filmy, seriale, gry i książki. Znajduj szczegółowe informacje, w tym plakaty, opisy i oceny.",
+                "videos": {
+                    "trendingContent": "Popularne treści",
+                    "searchMedia": "Wyszukiwanie mediów",
+                    "mediaDetails": "Szczegóły mediów"
+                }
+            },
+            "manageCollections": {
+                "title": "Zarządzaj kolekcjami",
+                "description": "Twórz, organizuj i zarządzaj kolekcjami. Dodawaj elementy, oceniaj je, oznaczaj jako do zrobienia i miej wszystko idealnie uporządkowane.",
+                "videos": {
+                    "createCollections": "Tworzenie kolekcji",
+                    "searchAndAdd": "Wyszukiwanie i dodawanie nowych elementów",
+                    "browseDetails": "Przeglądanie szczegółowych informacji",
+                    "addCustom": "Dodawanie własnych elementów",
+                    "editCustom": "Edytowanie własnych elementów",
+                    "rateAndMark": "Ocenianie i oznaczanie jako wykonane"
+                }
+            },
+            "connectFriends": {
+                "title": "Łącz się ze znajomymi",
+                "description": "Dodawaj znajomych, przeglądaj ich publiczne kolekcje i inspiruj się tym co oglądają, czytają i w co grają.",
+                "videos": {
+                    "addFriends": "Dodawanie znajomych",
+                    "viewProfiles": "Przeglądanie ich profili i publicznych kolekcji"
+                }
+            }
+        },
+        "features": {
+            "title": "Wszystko, czego potrzebujesz, by organizować swoje hobby",
+            "organize": {
+                "title": "Porządkuj swoje kolekcje",
+                "description": "Twórz do 15 kolekcji w 5 kategoriach: filmy, seriale, gry, książki i własne elementy. Każda kolekcja może mieć do 50 wpisów."
+            },
+            "searchAdd": {
+                "title": "Przeglądaj i dodawaj media",
+                "description": "Szukaj i dodawaj media korzystając z wbudowanej wyszukiwarki. Przeglądaj według kategorii i błyskawicznie dodawaj elementy do kolekcji."
+            },
+            "customEntries": {
+                "title": "Własne wpisy",
+                "description": "Dodawaj spersonalizowane elementy poza wynikami wyszukiwania. Twórz własne wpisy z tytułami i notatkami dla unikalnych hobby."
+            },
+            "discoverTrending": {
+                "title": "Odkrywaj popularne treści",
+                "description": "Sprawdzaj, co jest popularne na całym świecie we wszystkich obsługiwanych kategoriach."
+            },
+            "rateTrack": {
+                "title": "Oceniaj i śledź postępy",
+                "description": "Oceniaj elementy kolekcji w skali 0–10 gwiazdek. Używaj statusów, aby uporządkować to, co już wykonałeś, oraz to, co planujesz odkryć w przyszłości."
+            },
+            "richDetails": {
+                "title": "Szczegóły mediów",
+                "description": "Uzyskaj szczegółowe informacje o każdym elemencie multimedialnym: plakaty, tytuły, daty premier, czas trwania i oceny społeczności, by łatwiej zdecydować, co warto dodać."
+            },
+            "friends": {
+                "title": "Łącz się ze znajomymi",
+                "description": "Dodawaj znajomych i przeglądaj ich publiczne kolekcje, by zobaczyć, co lubią i znaleźć nowe inspiracje."
+            },
+            "crossPlatform": {
+                "title": "Dostęp na różnych platformach",
+                "description": "Korzystaj z kolekcji wszędzie: w aplikacji webowej lub pobierz aplikację mobilną na Androida, by mieć je przy sobie."
+            }
+        },
+        "mobile": {
+            "title": "Zabierz HobbyNest ze sobą",
+            "description": "Pobierz aplikację na Androida i zarządzaj kolekcjami w podróży. Synchronizuj się bezproblemowo na wszystkich urządzeniach.",
+            "downloadLabel": "Pobierz na Androida"
+        },
+        "footer": {
+            "copyright": "© {{year}} HobbyNest",
+            "legal": "Informacje prawne"
+        }
     }
 }
