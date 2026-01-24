@@ -28,6 +28,7 @@
         "save": "Save",
         "delete": "Delete",
         "done": "Done",
+        "in_progress": "In Progress",
         "rename": "Rename",
         "add": "Add"
     },
@@ -108,11 +109,11 @@
             "customPlural": "Custom"
         },
         "toDoLabel": {
-            "movie": "To watch",
-            "series": "To watch",
-            "game": "To play",
-            "book": "To read",
-            "custom": "To do"
+            "movie": "To Watch",
+            "series": "To Watch",
+            "game": "To Play",
+            "book": "To Read",
+            "custom": "To Do"
         },
         "addCollection": {
             "title": "Add New Collection",
@@ -128,14 +129,16 @@
             "title": "Search"
         },
         "addCollectionItem": {
-            "title": "Add New Item"
+            "title": "Add New Item",
+            "itemExistsMessage": "This item already exists. Do you want to update it with the new settings?"
         },
         "chooseCollection": {
             "title": "Add to Watchlist",
             "addNewCollection": "Create new collection"
         },
         "collectionDetails": {
-            "rated": "Rated"
+            "rated": "Rated",
+            "inProgress": "In Progress"
         },
         "customItem": {
             "description": "Description"

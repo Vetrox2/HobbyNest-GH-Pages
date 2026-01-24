@@ -1,0 +1,1 @@
+import{a}from"./chunk-G53KZ3OT.js";import"./chunk-NP2I3RXI.js";import"./chunk-DHMQ3T23.js";import"./chunk-OHR2EENK.js";import"./chunk-PCYLCH52.js";import"./chunk-5U3IDM62.js";import"./chunk-WJTMIWFM.js";import"./chunk-HU7WFQWJ.js";import"./chunk-YVXMD3G7.js";import"./chunk-S4ZUGAIY.js";import"./chunk-EQDQRRRY.js";export{a as LegalComponent};

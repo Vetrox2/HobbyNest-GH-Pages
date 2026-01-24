@@ -28,6 +28,7 @@
         "save": "Zapisz",
         "delete": "Usuń",
         "done": "Gotowe",
+        "in_progress": "W trakcie",
         "rename": "Zmień nazwę",
         "add": "Dodaj"
     },
@@ -128,14 +129,16 @@
             "title": "Wyszukaj"
         },
         "addCollectionItem": {
-            "title": "Dodaj nowy element"
+            "title": "Dodaj nowy element",
+            "itemExistsMessage": "Ten element już istnieje. Czy chcesz go zaktualizować zgodnie z nowymi ustawieniami?"
         },
         "chooseCollection": {
             "title": "Dodaj do kolekcji",
             "addNewCollection": "Utwórz nową kolekcję"
         },
         "collectionDetails": {
-            "rated": "Ocenione"
+            "rated": "Ocenione",
+            "inProgress": "W trakcie"
         },
         "customItem": {
             "description": "Opis"

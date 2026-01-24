@@ -158,3 +158,18 @@
         display: block;
     }
 }
+
+@mixin mat-tabs-touch-scroll-mobile($selector) {
+    #{$selector} .mat-mdc-tab-header {
+        @media (pointer: coarse) {
+            .mat-mdc-tab-header-pagination {
+                display: none;
+            }
+
+            .mat-mdc-tab-label-container {
+                overflow-x: auto;
+                scrollbar-width: none;
+            }
+        }
+    }
+}

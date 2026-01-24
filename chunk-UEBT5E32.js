@@ -1,1 +1,0 @@
-var e={production:!0,apiUrl:"https://hobbynest.azurewebsites.net/api",isMobileApp:!1,appVersion:"3.4.0",mobileAppDownloadUrl:"https://github.com/Vetrox2/HobbyNest-GH-Pages/releases/download/latest/hobbynest.apk"};export{e as a};
